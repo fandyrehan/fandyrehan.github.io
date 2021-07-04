@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+
+.user{
+	width: 150px;
+	height: 150px;
+	border-radius:50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+
+}
+
+h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #fff;
+}
+
+.loginbox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],.loginbox input[type="password"]
+{
+	border: 0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.70s;
+}
+
+.loginbox input[type = "text"]:focus,.loginbox input[type = "password"]:focus{
+width: 280px;
+border-color: #2ecc71;
+	}
+
+.loginbox input[type="submit"]
+{
+	border: 0;
+	background:none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.loginbox input[type = "submit"]:hover{
+	background: #2ecc71;
+}
+
+.loginbox a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.loginbox input[placeholder="Enter Email"],.loginbox input[type="password"] {
+	color: white;
+}
+

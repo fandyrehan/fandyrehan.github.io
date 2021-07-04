@@ -1,0 +1,162 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+	margin-top: 30px;
+}
+
+.jumbotron {
+	heigth: 400px;
+	background-image: url('../img/miku.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -10px;
+	color: #eaeaea;
+	overflow: hidden;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+}
+
+
+.jumbotron img {
+	width: 200px;
+	border: 2px solid #eaeaea;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+video,
+audio {
+	margin-left: px;
+}
+
+section {
+	/*min-height: 550px;*/
+}
+
+.pKiri,
+.pKanan {
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(600deg);
+	transition: 1s;
+	text-align: justify;
+}
+
+.pKanan {
+	transform: translate(50px, 0) rotate(-60deg);
+}
+
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.gfriend {
+	background-color: #eee;
+}
+
+.gfriend .thumbnail {
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: .5s;
+}
+
+.gfriend .thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.contact {
+	min-height: 700px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 120px;
+	background-color: #333;
+	padding-top: 30px;
+
+}
+
+footer p {
+	color: #aaa;
+	font-size: 0.9em;
+}
+
+footer p i {
+	color: salmon;
+}
+
+#jum {
+	font-size: 30px;
+	color: #e1f5fe;
+}
+
+
+
+.swiper-container {
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 400px;
+	background: #fff;
+}
+
+.swiper-slide .imgBx {
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+}
+
+.swiper-slide .imgBx img {
+	width: 90%;
+}
+
+.swiper-slide .details {
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.swiper-slide .details h3 {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 20px;
+}
+
+.swiper-slide .details h3 span {
+	font-size: 16px;
+	color: #f44336;
+}
+
+.gallery {
+	background: #262626;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	padding-top: 0;
+}
